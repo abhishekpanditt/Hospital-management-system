@@ -135,7 +135,7 @@ public class PatientController {
             return "Updated patient successfully";
         }
         else{
-            return "Data was not existing";
+            return "Patient does not exist";
         }
 
     }
