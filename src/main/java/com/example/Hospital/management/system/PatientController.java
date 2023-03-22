@@ -121,7 +121,7 @@ public class PatientController {
 
             return "Updated successfully";
         }else {
-            return "Patient doesnot exist";
+            return "Patient does not exist";
         }
     }
 
@@ -139,6 +139,7 @@ public class PatientController {
         }
 
     }
+
 
     @DeleteMapping("/deletePatient")
     public String deletePatient(@RequestParam("patientId")Integer patientId){
